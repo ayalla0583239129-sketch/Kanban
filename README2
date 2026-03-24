@@ -1,0 +1,20 @@
+# MediaTekDocuments - Solution de Gestion Médiathèque
+
+## Présentation
+Ce projet est une solution complète de gestion de catalogue et de commandes pour MediaTek86. 
+Il se compose d'une API REST (PHP) et d'un client Desktop (C#).
+
+## Installation
+1. **API :** - Placer le dossier `rest_mediatekdocuments` dans votre dossier `www` (WampServer).
+   - Exécuter `composer install`.
+   - Importer `mediatek86.sql` dans MySQL.
+2. **Client C# :**
+   - Ouvrir la solution dans Visual Studio.
+   - Configurer l'URL de l'API dans le fichier `App.config`.
+   - Compiler et lancer.
+
+## Fonctionnalités ajoutées
+- CRUD complet des documents (Livres, DVD, Revues).
+- Gestion des commandes et des abonnements de revues.
+- Alertes automatiques pour les abonnements arrivant à expiration.
+- Système de logging sécurisé.
